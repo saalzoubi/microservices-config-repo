@@ -31,9 +31,10 @@ management:
 
 info:
   app:
-    name: test
-    description: ${spring.application.description}
-    version: ${spring.application.version}
+    name: order-service
+    description: Order Service for placing and retrieving orders
+    version: 1.0.0
+
 
 
 eureka:

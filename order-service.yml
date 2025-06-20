@@ -18,6 +18,16 @@ jwt:
   config:
     secret: 469f3debf3d3e525ccf4d16b3a7634bc7b2f5cc1
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health
+  endpoint:
+    health:
+      show-details: always
+
+
 eureka:
   client:
     service-url:

@@ -30,10 +30,10 @@ management:
       show-details: always
 
 info:
-  app:
-    name: order-service
-    description: Order Service for placing and retrieving orders
-    version: 1.0.0
+  name: order-service
+  description: Order Service for placing and retrieving orders
+  version: 1.0.0
+
 
 
 

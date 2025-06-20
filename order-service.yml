@@ -40,4 +40,4 @@ info:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka:eurekasecret@localhost:8762/eureka/
+      defaultZone: http://eureka:eurekasecret@localhost:8761/eureka/

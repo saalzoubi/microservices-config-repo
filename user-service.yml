@@ -18,3 +18,8 @@ jwt:
   config:
     secret: 469f3debf3d3e525ccf4d16b3a7634bc7b2f5cc1
     expire: 86400000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:eurekasecret@localhost:8761/eureka

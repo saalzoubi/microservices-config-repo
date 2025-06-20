@@ -31,7 +31,7 @@ management:
 
 info:
   app:
-    name: ${spring.application.name}
+    name: test
     description: ${spring.application.description}
     version: ${spring.application.version}
 

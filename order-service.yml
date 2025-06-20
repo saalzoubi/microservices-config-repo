@@ -14,7 +14,7 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 server:
-  port: 8084
+  port: 8083
 
 jwt:
   config:
@@ -30,9 +30,10 @@ management:
       show-details: always
 
 info:
-  name: order-service
-  description: Order Service for placing and retrieving orders
-  version: 1.0.0
+  app:
+    name: ${spring.application.name}
+    description: ${spring.application.description}
+    version: ${spring.application.version}
 
 
 

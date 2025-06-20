@@ -10,6 +10,8 @@ spring:
       password: eurekasecret
 
 eureka:
+  instance:
+    name: localhost
   client:
     register-with-eureka: false
     fetch-registry: false

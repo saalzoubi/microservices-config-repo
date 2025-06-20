@@ -1,6 +1,8 @@
 spring:
   application:
     name: order-service
+    version: 1.0.0
+    description: Order Service
   datasource:
     url: jdbc:postgresql://localhost:5432/orderdb
     username: postgres
@@ -26,6 +28,12 @@ management:
   endpoint:
     health:
       show-details: always
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: ${spring.application.description}
+    version: ${spring.application.version}
 
 
 eureka:

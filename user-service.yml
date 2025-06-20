@@ -1,6 +1,8 @@
 spring:
   application:
     name: user-service
+    description: User Service
+    version: 1.0.0
   datasource:
     url: jdbc:postgresql://localhost:5432/userdb
     username: postgres
@@ -27,6 +29,12 @@ management:
   endpoint:
     health:
       show-details: always
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: ${spring.application.description}
+    version: ${spring.application.version}
 
 eureka:
   client:
